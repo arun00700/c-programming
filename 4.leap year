@@ -1,0 +1,16 @@
+#include<stdio.h>
+     int main()
+     {
+     int num;
+     printf("Insert a number: ");
+     scanf("%d”,&num);
+     //Condition to check if the number is negative or positive
+     if (((num%4==0)&&(num%100!=0)) || (num%400==0))
+         printf("%d is leap year",num);
+     else
+        printf("%d is not leap year",num);
+     
+     
+     return 0;
+
+ }
