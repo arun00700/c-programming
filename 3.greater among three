@@ -1,0 +1,15 @@
+#include<stdio.h>
+     int main()
+     {
+     int num,num1,num2;
+     printf("Insert a number: ");
+     scanf("%d %d %d”, &num,&num1,&num2);
+     //Condition to check if the number is negative or positive
+     if (num>num1>num2)
+         printf("%d",num);
+     else if (num1>num>num2)
+          printf("%d",num1);
+     else
+       printf("%d",num2);
+     return 0;
+     }
